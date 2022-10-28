@@ -11,7 +11,7 @@ namespace MasterLibrary.ConnectDatabase
 {
     public class AdoNet
     {
-        private static string connectionstring = "Server=tcp:masterlibraryuit.database.windows.net,1433;Initial Catalog=log_db;Persist Security Info=False;User ID=hoangminh;Password=Masterlib9;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+        private static string connectionstring = "Server=tcp:masterlibdatabase.database.windows.net,1433;Initial Catalog=log_db;Persist Security Info=False;User ID=hoangminh;Password=Masterlib9;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
         private static SqlConnection sqlcon = null;
 
         public AdoNet()
